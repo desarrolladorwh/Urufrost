@@ -3,14 +3,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 body {
     font-family: 'Jost', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+    font-family: 'Roboto Condensed', sans-serif;}
 
 /*!---------------HEADER---------------------------*/
 header {
@@ -18,13 +16,11 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    z-index: 100;
-}
+    z-index: 100;}
 
 header nav img {
     width: 120px;
-    margin: 0 0 0 10px;
-}
+    margin: 0 0 0 10px;}
 
 header nav {
     height: 100%;
@@ -33,28 +29,23 @@ header nav {
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-}
+    align-items: center;}
 header nav ul{
     padding: 0;
-    margin: 0;
-}
+    margin: 0;}
 header nav ul li {
     list-style: none;
     display: inline-block;
-    margin: 2px;
-}
-
+    margin: 2px;}
 header nav ul li a:hover {
     color: rgb(61, 162, 230);
-    cursor: pointer;
-}
-
+    cursor: pointer;}
 header nav ul li a {
     text-decoration: none;
     color: white;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 0;}
+.menu {
+    display: none;
 }
 
 .titulo {
@@ -67,40 +58,28 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center;}
 .titulo h2 {
     font-size: 100px;
-    color: black;
-}
-
+    color: black;}
 .titulo p {
     font-size: 30px;
     background-color: black;
     color: rgb(61, 162, 230);
     margin: 20px;
     border-radius: 10px;
-    padding: 10px;
-}
-
+    padding: 10px;}
 .quienes-somos {
     background-color: rgb(247, 131, 54);
-    flex-wrap: wrap;
-}
-
+    flex-wrap: wrap;}
 .quienes-somos h2 {
     background-color: black;
     color: rgb(61, 162, 230);
     text-align: center;
-    padding: 10px;
-}
-
+    padding: 10px;}
 /*-------------------Main-------------------- ------*/
 .nuestra-empresa {
-    display: flex;
-}
-
+    display: flex;}
 .parrafo {
 
     display: flex;
@@ -108,40 +87,26 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 15px
-}
-
+    padding: 15px}
 .parrafo p {
-    font-size: 20px;
-}
-
+    font-size: 20px;}
 .nuestra-empresa img {
     width: 700px;
-    height: 500px;
-}
-
+    height: 500px;}
 .equipos-nuevos h2 {
     background-color: black;
     color: rgb(61, 162, 230);
-    text-align: center;
-}
-
+    text-align: center;}
 .equipos-nuevos div {
     display: flex;
-    justify-content: space-around;
-}
-
+    justify-content: space-around;}
 .equipos-nuevos div img {
     height: 200px;
-    width: 400px;
-}
-
+    width: 400px;}
 .img-nuevos {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-}
-
+    justify-content: space-between;}
 .mas-informacion a {
     margin: 10px;
     font-size: 25px;
@@ -149,16 +114,11 @@ header nav ul li a {
     background-color: rgb(0, 0, 0);
     color: rgb(245, 239, 239);
     border-radius: 10px;
-    padding: 5px;
-}
-
+    padding: 5px;}
 .mas-informacion a:hover {
     color: rgb(61, 162, 230);
-
     cursor: pointer;
-    scale: 2;
-}
-
+    scale: 2;}
 /*-------------------SERVICIOS-PAGE---------------*/
 .titulo-servicios {
     background-image: url(../img/fondoservicios.jpg);
@@ -168,14 +128,10 @@ header nav ul li a {
     height: 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center;}
 .titulo-servicios h1 {
     font-size: 100px;
-    color: rgb(0, 0, 0);
-}
-
+    color: rgb(0, 0, 0);}
 .variedad {
     background-color: rgb(247, 131, 54);
     border: solid black 2px;
@@ -183,121 +139,84 @@ header nav ul li a {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    flex-wrap: wrap;
-}
-
+    flex-wrap: wrap;}
 .variedad div {
     background-color: black;
     border: solid rgb(61, 162, 230);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
+    align-items: center;}
 .variedad div h2 {
-    color: rgb(61, 162, 230);
-}
-
+    color: rgb(61, 162, 230);}
 .variedad div img {
     width: 200px;
-    height: 200px;
-}
-
+    height: 200px;}
 .instalacion h2 {
     background-color: black;
     color: rgb(61, 162, 230);
     display: flex;
     justify-content: center;
-    padding: 10px;
-}
-
+    padding: 10px;}
 .container-servicio {
     border: solid rgb(61, 162, 230);
     background-color: rgb(247, 131, 54);
     display: flex;
-    justify-content: space-between;
-    }
-
+    justify-content: space-between;}
 .container-servicio div {
     display: flex;
     align-items: center;
-    padding: 30px;
-}
-
+    padding: 30px;}
 .container-servicio p {
     font-size: 20px;
     color: black;
-    padding: 5px;
-}
-
+    padding: 5px;}
 .container-servicio img {
-    border: solid black 5px;
-}
-
+    border: solid black 5px;}
 .mantenimiento div h3 {
     background-color: black;
     color: rgb(61, 162, 230);
     display: flex;
     justify-content: center;
     padding: 10px;
-    font-size: 23px;
-}
-
+    font-size: 23px;}
 .div-mantenimiento {
     background-color: rgb(247, 131, 54);
     border: solid rgb(61, 162, 230);
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
- 
-}
+    justify-content: space-between;}
 .p-mantenimiento {
     display: flex;
     color: black;
     padding: 30px;
-    flex-wrap: wrap
-}
-
+    flex-wrap: wrap}
 .div-mantenimiento div p {
     font-size: 20px;
-    padding: 5px;
-}
-
+    padding: 5px;}
 .div-mantenimiento img {
-    border: solid black 5px;
-}
-
+    border: solid black 5px;}
 .reparacion div h3 {
     background-color: black;
     color: rgb(61, 162, 230);
     display: flex;
     justify-content: center;
     padding: 10px;
-    font-size: 23px;
-}
-
+    font-size: 23px;}
 .container-reparacion {
     background-color: rgb(247, 131, 54);
     border: solid rgb(61, 162, 230);
     display: flex;
-    justify-content: space-between;
-}
-
+    justify-content: space-between;}
 .container-reparacion div {
     display: flex;
     align-items: center;
-    padding: 30px;
-}
-
+    padding: 30px;}
 .container-reparacion div p {
     font-size: 20px;
-    padding: 5px;
-}
-
+    padding: 5px;}
 .container-reparacion img {
-    border: solid black 5px;
-}
+    border: solid black 5px;}
 
 /*-----------------------VENTAS PAGE---------------*/
 .ventas {
@@ -305,45 +224,31 @@ header nav ul li a {
     height: 500px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-
+    align-items: center;}
 .ventas h1 {
-    font-size: 100px;
-}
-
+    font-size: 100px;}
 .ventas img {
     width: 606;
-    height: 364;
-}
-
+    height: 364;}
 .linea-stanford h2 {
     background-color: black;
     color: rgb(61, 162, 230);
     display: flex;
     justify-content: center;
     padding: 10px;
-    font-size: 23px;
-}
-
+    font-size: 23px;}
 .stanford {
     display: flex;
-    justify-content: space-around;
-}
-
+    justify-content: space-around;}
 .productos {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-
-    
-}
+    flex-wrap: wrap;}
 .card {
      margin: 10px;
     display: flex;
     justify-content: center;
-    text-align: center;
-}
+    text-align: center;}
 
 /*----------------------CONTACTOS PAGE------------*/
 .titulo-contactos {
@@ -351,54 +256,39 @@ header nav ul li a {
     height: 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center;}
 .titulo-contactos h1 {
     color: white;
-    font-size: 100px;
-}
-
+    font-size: 100px;}
 .form {
     margin: 40px 0 30px 0;
     border: solid black;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-}
-
+    padding: 20px;}
 .form-contactos {
     margin: 0;
     display: flex;
-    justify-content: space-around;
-}
-
+    justify-content: space-around;}
 .img-contactos h2 {
     margin: 40px 0 0 0;
-    font-size: 40px;
-}
-
+    font-size: 40px;}
 .form div {
     height: 60px;
     display: flex;
     justify-content: right;
     align-items: center;
-    margin: 20px;
-}
-
+    margin: 20px;}
 .form div a {
     text-decoration: none;
     color: white;
     background-color: black;
     font-size: 30px;
     padding: 10px;
-    border-radius: 30px;
-}
-
+    border-radius: 30px;}
 .form div a:hover {
     color: rgb(61, 162, 230);
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 /*--------------------TRABAJOS PAGE---------------*/
 .trabajos div {
@@ -410,42 +300,29 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center;}
 .trabajos div h1 {
-    font-size: 100px;
-}
-
+    font-size: 100px;}
 .trabajos div p {
     background-color: black;
     color: rgb(61, 162, 230);
     margin: 20px 0 0 0;
     padding: 5px;
     font-size: 30px;
-    border-radius: 10px;
-}
-
+    border-radius: 10px;}
 .galeria {
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    background-color: rgb(247, 131, 54);
-}
-
+    background-color: rgb(247, 131, 54);}
 .galeria div {
-    height: 400px;
-}
-
+    height: 400px;}
 .galeria div img {
     width: 100%;
-    height: 100%;
-}
-
+    height: 100%;}
 .image {
-    grid-column: 2/4;
-}
+    grid-column: 2/4;}
 
 /*---------------------FOOTER--------------------*/
 footer {
@@ -454,33 +331,22 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px 0 20px;
-}
-
+    padding: 0 20px 0 20px;}
 footer h2 {
     font-size: 30px;
-    color: rgb(247, 131, 54);
-}
-
+    color: rgb(247, 131, 54);}
 footer div {
     display: flex;
-    align-items: center;
-}
-
+    align-items: center;}
 footer div a img {
     height: 50px;
-    width: 50px;
-}
-
+    width: 50px;}
 footer div p {
     margin: 0 10px;
-    color: white;
-}
-
+    color: white;}
 .carousel-inner {
     width: 100%;
-    height: 700px;
-}
+    height: 700px;}
 
 @media screen and (max-width:1075px) {
 
@@ -495,13 +361,11 @@ footer div p {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;}
-        
     .div-mantenimiento img {
         border: solid black 5px;
         width: 500px;
         height: 500px;
-        margin: 10px 0 10px 0;
-        }
+        margin: 10px 0 10px 0;}
      .container-reparacion {
          background-color: rgb(247, 131, 54);
          border: solid rgb(61, 162, 230);
@@ -513,15 +377,11 @@ footer div p {
          border: solid black 5px;
          width: 500px;
          height: 500px;
-         margin: 10px 0 10px 0;   
-        }
+         margin: 10px 0 10px 0;}
     .galeria div {
-         height: 300px;
-        }
+         height: 300px;}
     .image {
-         grid-column: 2/3;
-        }
-    }
+         grid-column: 2/3;}}
     
         
 @media screen and (max-width:860px) {
@@ -571,6 +431,16 @@ footer div p {
         gap: 10px;
         background-color: rgb(247, 131, 54);
         }
+    .form-contactos {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .img-contactos{
+        text-align: center;
+    }
     }
 @media screen and (max-width:650px) {
     .stanford {
@@ -585,10 +455,33 @@ footer div p {
         background-color: black;
         background-size: cover;
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         }
+    .menu {
+      display: block;
+      margin: 0 30px 0 0;
+    }
+    header nav ul li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        background-color: black;
+       
+    }
+    header nav ul li ul :hover{
+        background-color: grey;
+        
+    }
+    header nav ul li:hover > ul {
+        display: block;
+    }
+    
+    header nav ul li {
+        list-style: none;
+        display: block;
+        margin: 2px;}
+
     header nav ul li {
          margin: 1px;}
     header nav ul li a {
@@ -653,6 +546,35 @@ footer div p {
     }
     .trabajos div p {
         font-size: 20px;
-    } 
+    }
+    .form-contactos {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .img-contactos {
+        text-align: center;
+    }
+    .form {
+        height: 400px;
+        width: 200px;
+        margin: 4px 0 3px 0;
+        border: solid black;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;}
+    .titulo-contactos h1 {
+            color: white;
+            font-size: 50px;}
+    .variedad div {
+        background-color: black;
+        border: solid rgb(61, 162, 230);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;}
 
     }
