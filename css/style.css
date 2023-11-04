@@ -154,8 +154,9 @@ header nav ul li a {
 
 .mas-informacion a:hover {
     color: rgb(61, 162, 230);
-    ;
+
     cursor: pointer;
+    scale: 2;
 }
 
 /*-------------------SERVICIOS-PAGE---------------*/
@@ -216,7 +217,7 @@ header nav ul li a {
     background-color: rgb(247, 131, 54);
     display: flex;
     justify-content: space-between;
-}
+    }
 
 .container-servicio div {
     display: flex;
@@ -343,6 +344,7 @@ header nav ul li a {
     justify-content: center;
     text-align: center;
 }
+
 /*----------------------CONTACTOS PAGE------------*/
 .titulo-contactos {
     background-color: black;
@@ -486,7 +488,42 @@ footer div p {
         display: flex;
         flex-direction: column;
         align-items: center;}
-}
+    .div-mantenimiento {
+         background-color: rgb(247, 131, 54);
+         border: solid rgb(61, 162, 230);
+         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;}
+        
+    .div-mantenimiento img {
+        border: solid black 5px;
+        width: 500px;
+        height: 500px;
+        margin: 10px 0 10px 0;
+        }
+     .container-reparacion {
+         background-color: rgb(247, 131, 54);
+         border: solid rgb(61, 162, 230);
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;}
+    .container-reparacion img {
+         border: solid black 5px;
+         width: 500px;
+         height: 500px;
+         margin: 10px 0 10px 0;   
+        }
+    .galeria div {
+         height: 300px;
+        }
+    .image {
+         grid-column: 2/3;
+        }
+    }
+    
+        
 @media screen and (max-width:860px) {
     .nuestra-empresa {
         display: flex;
@@ -514,63 +551,108 @@ footer div p {
     .carousel-inner {
         width: 100%;
         height: 100%;}
-}
-    @media screen and (max-width:650px) {
-       
-          .stanford {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-       }
+    .container-servicio {
+        background-color: rgb(247, 131, 54);
+        border: solid rgb(61, 162, 230);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;} 
+    .container-servicio img {
+        border: solid black 5px;
+        width: 500px;
+        height: 500px;
+        margin: 10px 0 10px 0;
+        }
+     .galeria {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        background-color: rgb(247, 131, 54);
+        }
     }
-    @media screen and (max-width:560px) {
-        header nav {
-            height: 100%;
-            width: 100%;
-            background-color: black;
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+@media screen and (max-width:650px) {
+    .stanford {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;}
+    }
+@media screen and (max-width:560px) {
+    header nav {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         }
+    header nav ul li {
+         margin: 1px;}
+    header nav ul li a {
+         margin: 0 5px 0 0;}
+    .titulo h2 {
+        font-size: 50px;
+        color: black;}
+    .titulo-servicios h1 {
+        font-size: 50px;}
+    .titulo p {
+        font-size: 15px;
+        background-color: black;
+        color: rgb(61, 162, 230);
+        margin: 20px;
+        border-radius: 10px;
+        padding: 10px;}
+    footer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;}
+    .nuestra-empresa img {
+        width: 100%;
+        height: 200px;
+        padding: 20px;}
+    .equipos-nuevos {
+        width: 100%;}
+    .equipos-nuevos div img {
+        height: 200px;
+        width: 100%;}
+    .container-servicio img {
+        border: solid black 5px;
+        width: 250px;
+        height: 250px;
+        margin: 10px 0 10px 0; }
+    .div-mantenimiento img{
+        border: solid black 5px;
+        width: 250px;
+        height: 250px;
+        margin: 10px 0 10px 0;}
+    .container-reparacion img {
+        border: solid black 5px;
+        width: 250px;
+        height: 250px;
+        margin: 10px 0 10px 0;}
+    .galeria {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247, 131, 54);
+            }
+     .galeria div {
+        height: 250px;
+        width: 250px;
+         }
+    .trabajos div h1 {
+        font-size: 50px;
+    }
+    .trabajos div p {
+        font-size: 20px;
+    } 
 
-        .titulo h2 {
-            font-size: 50px;
-            color: black;
-        }
-
-        .titulo p {
-            font-size: 15px;
-            background-color: black;
-            color: rgb(61, 162, 230);
-            margin: 20px;
-            border-radius: 10px;
-            padding: 10px;
-        }
-
-        footer {
-            background-color: black;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-        }
-
-        .nuestra-empresa img {
-            width: 100%;
-            height: 200px;
-            padding: 20px;
-        }
-
-        .equipos-nuevos {
-            width: 100%;
-        }
-
-        .equipos-nuevos div img {
-            height: 200px;
-            width: 100%;
-        }
-
-}
+    }
