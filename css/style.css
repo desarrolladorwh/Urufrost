@@ -46,8 +46,8 @@ header nav ul li a {
     margin: 0 20px 0 0;}
 .menu {
     display: none;
+    color: white;
 }
-
 .titulo {
     background-image: url(../img/fondo.jpg);
     background-position: center;
@@ -455,6 +455,7 @@ footer div p {
         background-color: black;
         background-size: cover;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         }
@@ -467,15 +468,24 @@ footer div p {
         position: absolute;
         min-width: 140px;
         background-color: black;
+        padding: 5px;
+        text-align: center;
+        
+        
+        
        
     }
     header nav ul li ul :hover{
         background-color: grey;
+        transform:scale(1,1);
+        border-radius: 10px;
+        margin: 5px;}
+    header nav ul li:hover > ul {
+        display:block;
+        position: fixed;
         
     }
-    header nav ul li:hover > ul {
-        display: block;
-    }
+    
     
     header nav ul li {
         list-style: none;
